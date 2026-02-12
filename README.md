@@ -18,5 +18,4 @@ Get a pcb and a antenna, keep it in an open area, then flashing my firmware (not
 
 
 # Bom
-Please look at bom.xls
-+ A 4G antenna with range in 1090Mhz
+Please look at bom.xls, lcsc.xls
