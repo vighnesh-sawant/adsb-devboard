@@ -8,8 +8,9 @@ As it turns out it can't/ or is locked down so it can't.
 So on learning about blueprint, I made by childhood dream come true!
 
 # How
-Get a pcb and a antenna, keep it in an open area, then flashing my firmware (not complete yet) should get you data about a good amount of flights in the vicinity  
-(according to my research 50km ish)
+Get a pcb and a antenna,wire it to the correct gpio ports(more info soon)  
+keep it in an open area, then flashing my firmware (not complete yet) should get you data about a good amount of flights in the vicinity    
+(according to my research 50km ish)(more details once i try this out, I have done research but yk Murphy's law once I try out I'll have solid instructions!)
 
 # Pics
 <img width="1866" height="1233" alt="image" src="https://github.com/user-attachments/assets/568748bd-cba2-4e28-8368-40fcc39e5183" />
