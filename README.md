@@ -13,9 +13,10 @@ keep it in an open area, then flashing my firmware (not complete yet) should get
 (according to my research 50km ish)(more details once i try this out, I have done research but yk Murphy's law once I try out I'll have solid instructions!)
 
 # Pics
-<img width="1866" height="1233" alt="image" src="https://github.com/user-attachments/assets/568748bd-cba2-4e28-8368-40fcc39e5183" />
-<img width="1928" height="1319" alt="image" src="https://github.com/user-attachments/assets/08ab0e8b-d948-4a1b-9968-413a4b73bf78" />
-<img width="1148" height="841" alt="image" src="https://github.com/user-attachments/assets/2f630577-ce55-49a8-b0dc-634da9cbbafa" />
+<img width="1892" height="1297" alt="image" src="https://github.com/user-attachments/assets/2cdc0d4e-2aaa-4426-8c4a-aac0d6b92faf" />
+<img width="1954" height="1280" alt="image" src="https://github.com/user-attachments/assets/27a25aa9-4910-4577-aba9-d98b648ccb4b" />
+<img width="1297" height="957" alt="image" src="https://github.com/user-attachments/assets/6bca0cb8-8b5e-4160-92d9-bfe81623443d" />
+
 
 
 # Bom
