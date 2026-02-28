@@ -3974,6 +3974,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:W25Q128JVP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5176,6 +5259,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:HP0603-R10H-N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HP0603-R10H-N"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:IND-SMD_L1.6-W1.0"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2903685"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HP0603-R10H-N_0_1"
+				(arc
+					(start -4.06 -0.01)
+					(mid -2.83 0.99)
+					(end -2.03 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 -0.01)
+					(mid -0.8 0.99)
+					(end 0 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.01)
+					(mid 1.23 0.99)
+					(end 2.03 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 -0.01)
+					(mid 3.26 0.99)
+					(end 4.06 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:RT8075ZQW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5446,178 +5673,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:TCBT-14+"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TCBT-14+"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SMD_L3.8-W3.8_TCBT-14"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C5240847"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TCBT-14+_0_1"
-				(rectangle
-					(start -11.43 5.08)
-					(end 11.43 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -10.16 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 2.54 0)
-					(length 2.54)
-					(name "RF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 0 0)
-					(length 2.54)
-					(name "RF&DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -2.54 0)
-					(length 2.54)
-					(name "DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 2.54 180)
-					(length 2.54)
-					(name "NOTUSED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8125,24 +8180,8 @@
 		(uuid "03e2ee0f-291e-4d47-822d-842451aa6c08")
 	)
 	(no_connect
-		(at 132.08 360.68)
-		(uuid "159807ad-3aac-423a-a47c-979c91c19ab9")
-	)
-	(no_connect
-		(at 132.08 365.76)
-		(uuid "5076ecc5-b8d8-4cf8-b531-30d2f8aa7af8")
-	)
-	(no_connect
-		(at 280.67 355.6)
-		(uuid "7c2751dd-4165-4fbf-acb7-f79988d6dba0")
-	)
-	(no_connect
 		(at 46.99 217.17)
 		(uuid "82c010e0-1a65-4dd9-899b-39424ef3f4f8")
-	)
-	(no_connect
-		(at 280.67 360.68)
-		(uuid "c9848796-0ee7-42eb-8c13-69d4ff98bcfd")
 	)
 	(wire
 		(pts
@@ -8206,16 +8245,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 358.14) (xy 252.73 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06df35a0-485d-4f2b-9ca4-f167e6a57874")
-	)
-	(wire
-		(pts
 			(xy 254 95.25) (xy 290.83 95.25)
 		)
 		(stroke
@@ -8223,6 +8252,16 @@
 			(type default)
 		)
 		(uuid "07ffe9c5-5e95-47bd-80bb-85b9e3b99979")
+	)
+	(wire
+		(pts
+			(xy 91.44 363.22) (xy 91.44 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f956a2-8d27-4524-8af7-48e866dbec2d")
 	)
 	(wire
 		(pts
@@ -8593,16 +8632,6 @@
 			(type default)
 		)
 		(uuid "3534c385-2754-448d-9f02-4fde29906076")
-	)
-	(wire
-		(pts
-			(xy 238.76 355.6) (xy 252.73 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3667f096-e6ea-475b-a3f6-e38686d66915")
 	)
 	(wire
 		(pts
@@ -9016,16 +9045,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 363.22) (xy 104.14 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69b38da3-a6fb-4f02-adfd-84a682ba788c")
-	)
-	(wire
-		(pts
 			(xy 279.4 60.96) (xy 279.4 54.61)
 		)
 		(stroke
@@ -9073,6 +9092,16 @@
 			(type default)
 		)
 		(uuid "721ff354-1a42-4cc1-aea3-0050f962723c")
+	)
+	(wire
+		(pts
+			(xy 246.38 363.22) (xy 246.38 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a5cd40-5e6d-48de-9ecb-e3158f4bed2f")
 	)
 	(wire
 		(pts
@@ -9183,6 +9212,16 @@
 			(type default)
 		)
 		(uuid "7b00b76d-70bf-4f38-985e-f6b5e56aa8d9")
+	)
+	(wire
+		(pts
+			(xy 104.14 363.22) (xy 107.95 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b01a454-402c-4595-b297-665f82938797")
 	)
 	(wire
 		(pts
@@ -9846,6 +9885,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 363.22) (xy 262.89 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c375ac48-7e57-4a9d-9c9a-c476cc5c699b")
+	)
+	(wire
+		(pts
 			(xy 264.16 68.58) (xy 290.83 68.58)
 		)
 		(stroke
@@ -10006,6 +10055,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 363.22) (xy 248.92 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3008173-63fe-4775-9db6-09b3077fe229")
+	)
+	(wire
+		(pts
 			(xy 317.5 46.99) (xy 320.04 46.99)
 		)
 		(stroke
@@ -10156,16 +10215,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 360.68) (xy 104.14 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9182653-62cb-4e13-ac18-b0794c053282")
-	)
-	(wire
-		(pts
 			(xy 86.36 245.11) (xy 86.36 257.81)
 		)
 		(stroke
@@ -10203,6 +10252,16 @@
 			(type default)
 		)
 		(uuid "f06dab2b-4283-4961-88e2-b01096beb3a5")
+	)
+	(wire
+		(pts
+			(xy 91.44 363.22) (xy 93.98 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a271eb-6544-4ef8-8582-d4d43dfa6bfa")
 	)
 	(wire
 		(pts
@@ -10464,16 +10523,6 @@
 		)
 		(uuid "0dd06179-19a7-418f-adb8-1e7586412ac5")
 	)
-	(label "biastee1"
-		(at 100.33 363.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10d31844-639e-4faa-ba3e-3acc50a6d089")
-	)
 	(label "GND"
 		(at 185.42 234.95 0)
 		(effects
@@ -10724,6 +10773,16 @@
 		)
 		(uuid "4bb2f12e-78d4-4aab-b88c-dbd6eaac7fde")
 	)
+	(label "biastee"
+		(at 246.38 363.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e29cb24-09f5-409f-bfc9-dec90a4fd36a")
+	)
 	(label "firstsawout"
 		(at 168.91 361.95 0)
 		(effects
@@ -10753,16 +10812,6 @@
 			(justify right bottom)
 		)
 		(uuid "5b9f701c-eb26-4df7-b89e-d6ec2a8b26d5")
-	)
-	(label "lnaout1"
-		(at 90.17 368.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c668116-e60f-48ed-a0d7-d138b4d10c00")
 	)
 	(label "GP2"
 		(at 353.06 71.12 0)
@@ -11044,16 +11093,6 @@
 		)
 		(uuid "a38c0a52-b5d1-4abd-b6b8-dbd3d400f949")
 	)
-	(label "biastee"
-		(at 246.38 358.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a80ee37d-2b05-41cb-8cbb-796cec891c4f")
-	)
 	(label "IO6"
 		(at 113.03 68.58 180)
 		(effects
@@ -11184,6 +11223,16 @@
 		)
 		(uuid "bf4aa9e8-3b7f-4ab2-a7da-6673b0d1f60e")
 	)
+	(label "biastee1"
+		(at 91.44 363.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1b2f291-1a17-4426-9013-9fc6f34e9c84")
+	)
 	(label "IO15"
 		(at 220.98 267.97 180)
 		(effects
@@ -11254,16 +11303,6 @@
 		)
 		(uuid "d905d9c7-26d0-4636-ab78-1a7c0c61ffed")
 	)
-	(label "lnaout"
-		(at 238.76 363.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da33089d-646c-46f0-99b3-f71ea7c261a4")
-	)
 	(label "IO20"
 		(at 41.91 69.85 180)
 		(effects
@@ -11324,6 +11363,16 @@
 		)
 		(uuid "e476fbaf-7c29-4a39-929b-aaeec04ecfd3")
 	)
+	(label "lnaout1"
+		(at 91.44 368.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6c06077-7066-4e77-9cc8-f279c28710c7")
+	)
 	(label "IO4"
 		(at 113.03 60.96 180)
 		(effects
@@ -11333,6 +11382,16 @@
 			(justify right bottom)
 		)
 		(uuid "e7c94857-b86f-4722-afc5-2086b4dff17c")
+	)
+	(label "lnaout"
+		(at 246.38 368.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eafd525a-95aa-4ebd-97f2-22dbef11a017")
 	)
 	(label "lnaout1"
 		(at 143.51 361.95 180)
@@ -12356,6 +12415,28 @@
 			)
 		)
 	)
+	(global_label "3v3_RF_LNA"
+		(shape input)
+		(at 262.89 363.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d7b4477-0d3d-496e-b36e-3415ce08b0fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 377.3328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 471.17 335.28 270)
@@ -12642,28 +12723,6 @@
 			)
 		)
 	)
-	(global_label "3v3_RF_LNA1"
-		(shape input)
-		(at 104.14 365.76 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ed8f47d-58ca-427e-82d8-5acf88d7853a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 381.0823 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_SCLK"
 		(shape input)
 		(at 353.06 111.76 0)
@@ -12770,6 +12829,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3_RF_LNA1"
+		(shape input)
+		(at 107.95 363.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "890c3902-e53b-4959-8dc7-c9ce543adeaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 378.5423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13271,28 +13352,6 @@
 		(uuid "b284be8e-63c7-43fa-9ca8-f5071b3284c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.0243 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3v3_RF_LNA"
-		(shape input)
-		(at 252.73 360.68 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2dc95e3-f360-4936-82ef-ecd8b1333707")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.73 374.7928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,6 +15190,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:HP0603-R10H-N")
+		(at 99.06 363.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "216e262a-94ad-4f8c-b55f-10de875ae5f4")
+		(property "Reference" "L4"
+			(at 99.06 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HP0603-R10H-N"
+			(at 99.06 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L1.6-W1.0"
+			(at 99.06 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2903685"
+			(at 99.06 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc4cffb3-db33-4e9d-a3fc-879c52b0eb87")
+		)
+		(pin "1"
+			(uuid "954fbca3-bfe6-4778-94f5-9c614f50c700")
+		)
+		(instances
+			(project ""
+				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 284.48 25.4 0)
 		(unit 1)
@@ -15360,7 +15496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.1548 356.87 0)
 			(effects
 				(font
@@ -15535,6 +15671,83 @@
 			(project ""
 				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:HP0603-R10H-N")
+		(at 254 363.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8f852c-5970-4f77-8986-a96957e53532")
+		(property "Reference" "L5"
+			(at 254 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HP0603-R10H-N"
+			(at 254 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L1.6-W1.0"
+			(at 254 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2903685"
+			(at 254 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "963e8a76-e7c4-4004-8aa2-5ddae7a57bd3")
+		)
+		(pin "1"
+			(uuid "dcf4eaa7-75de-4da8-beaa-da4ef6219e28")
+		)
+		(instances
+			(project "adsb-devboard"
+				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -19002,92 +19215,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TCBT-14+")
-		(at 118.11 363.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a59d18f-d190-4a69-928a-25a6c7f2c218")
-		(property "Reference" "U11"
-			(at 118.11 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCBT-14+"
-			(at 118.11 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SMD_L3.8-W3.8_TCBT-14"
-			(at 118.11 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5240847"
-			(at 118.11 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6edc644e-c674-4936-b178-1f435ca98126")
-		)
-		(pin "3"
-			(uuid "cc776c45-0535-4142-989d-9cc687672eef")
-		)
-		(pin "2"
-			(uuid "4a5ffa64-f676-4145-9cb8-c27b3cce7dfb")
-		)
-		(pin "1"
-			(uuid "fb65618b-33f9-44e4-abcc-986ce660dfd9")
-		)
-		(pin "5"
-			(uuid "08c1cb4c-762b-4007-bfd2-e73cf4be6d88")
-		)
-		(instances
-			(project "adsb-devboard"
-				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 302.26 25.4 0)
 		(unit 1)
@@ -19352,6 +19479,70 @@
 			(project "hardware_Arctyx-Nano"
 				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 170.0319 309.2685 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f70e4e-021f-443e-ab9e-80b188f99f5c")
+		(property "Reference" "H3"
+			(at 172.5719 307.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 172.5719 310.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 170.0319 309.2685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.0319 309.2685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.0319 309.2685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "adsb-devboard"
+				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -20195,6 +20386,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 308.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8388c5d-f2bf-477f-ac9a-c4d95b36d3b2")
+		(property "Reference" "H1"
+			(at 189.23 307.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 309.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 186.69 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 121.92 123.19 0)
 		(unit 1)
@@ -20891,92 +21146,6 @@
 			(project "hardware_Arctyx-Nano"
 				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:TCBT-14+")
-		(at 266.7 358.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0876692-9547-4129-b03c-c57e070d251d")
-		(property "Reference" "U9"
-			(at 266.7 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCBT-14+"
-			(at 266.7 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SMD_L3.8-W3.8_TCBT-14"
-			(at 266.7 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5240847"
-			(at 266.7 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1cdf8fd5-deb8-4fa1-99d2-0ef17397aecf")
-		)
-		(pin "3"
-			(uuid "8574344b-19af-49ea-9229-6a6ea83f10b5")
-		)
-		(pin "2"
-			(uuid "6abc4dc4-27eb-44dc-9751-d6d02d7cd153")
-		)
-		(pin "1"
-			(uuid "3e7bd7de-5c48-4ec8-b87a-fa3074a52d9f")
-		)
-		(pin "5"
-			(uuid "eafa7e3d-485e-47a5-9a38-ef4a0db790c7")
-		)
-		(instances
-			(project ""
-				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -23050,144 +23219,6 @@
 				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 90.17 364.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4d1a393-4b1f-4c62-abd0-45b7ea88a4a1")
-		(property "Reference" "C51"
-			(at 84.074 363.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12p"
-			(at 84.074 366.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 91.1352 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 90.17 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "082d047b-a026-4eef-81c7-1c2e63daa7a0")
-		)
-		(pin "2"
-			(uuid "760ae87c-2677-4750-9b74-d16e7ad427c9")
-		)
-		(instances
-			(project "adsb-devboard"
-				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 238.76 359.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f56d41fb-6b1f-4e5b-a6cf-989ef49201a6")
-		(property "Reference" "C27"
-			(at 232.664 358.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12p"
-			(at 232.664 361.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 239.7252 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 238.76 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "026f8af6-8814-4433-8b70-376ff10a6613")
-		)
-		(pin "2"
-			(uuid "cca063eb-be88-491b-9328-2015c1590f96")
-		)
-		(instances
-			(project "adsb-devboard"
-				(path "/dadf11aa-8e96-42b0-bb48-2980919511bd"
-					(reference "C27")
-					(unit 1)
 				)
 			)
 		)
